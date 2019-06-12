@@ -1,0 +1,36 @@
+$primary-color: #009688;
+$primary-color-light: lighten($primary-color, 6%);
+
+$default-text-color: #333333;
+$secondary-text-color: lighten($default-text-color, 25%);
+
+$default-border-radius: 12px;
+
+$default-input-background-color: #F5F5F5;
+
+$font-size-xs: 8px;
+$font-size-s: 12px;
+$font-size-m: 16px;
+$font-size-l: 24px;
+$font-size-xl: 32px;
+$font-size-xxl: 48px;
+
+$default-font-size: $font-size-m;
+
+$line-height-xs: 12px;
+$line-height-s: 16px;
+$line-height-m: 24px;
+$line-height-l: 32px;
+$line-height-xl: 40px;
+$line-height-xxl: 56px;
+
+$size-xs: 8px;
+$size-s: 16px;
+$size-m: 24px;
+$size-l: 32px;
+$size-xl: 48px;
+$size-xxl: 64px;
+
+$max-content-width: 700px;
+
+$max-width-tablet: 768px;

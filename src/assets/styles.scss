@@ -1,0 +1,138 @@
+@import './variables';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $default-font-size;
+  color: #333333;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: $font-size-xl;
+}
+
+h2 {
+  font-size: $font-size-l;
+}
+
+h3 {
+  font-size: $default-font-size;
+}
+
+p {
+  margin: 0;
+  font-size: $font-size-m;
+  line-height: $line-height-m;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+
+  &:hover {
+    color: $primary-color-light;
+  }
+}
+
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: $default-font-size;
+  border: none;
+  background-color: $primary-color;
+  padding: $size-xs $size-s;
+  border-radius: $default-border-radius;
+  cursor: pointer;
+  outline: none;
+
+  &--primary {
+    color: white;
+    background-color: $primary-color;
+
+    &:hover {
+      background-color: $primary-color-light;
+    }
+  }
+
+  &--text {
+    background-color: transparent;
+    color: $primary-color;
+
+    &:hover {
+      color: $primary-color-light;
+    }
+  }
+}
+
+.form-element {
+  margin-bottom: $size-m;
+
+  &__label {
+    font-size: $default-font-size;
+    display: block;
+    color: $secondary-text-color;
+    margin-bottom: $size-xs;
+  }
+
+  &__input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: $default-font-size;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: $default-input-background-color;
+    width: 100%;
+    padding: $size-xs;
+    border-radius: $default-border-radius;
+    appearance: none;
+    box-sizing: border-box;
+
+    .submitted &:invalid {
+      border: 1px solid red;
+    }
+
+    .submitted &:invalid + p.form-element__error {
+      display: block;
+      font-size: $font-size-s;
+    }
+  }
+
+  &__error {
+    color: red;
+    display: none;
+    margin: $size-xs 0;
+  }
+}
+
+.u-text-color-secondary {
+  color: $secondary-text-color;
+}
+
+.u-margin-bottom-xs {
+  margin-bottom: $size-xs;
+}
+
+.u-margin-bottom-s {
+  margin-bottom: $size-s;
+}
+
+.u-margin-bottom-m {
+  margin-bottom: $size-m;
+}
+
+.u-margin-bottom-l {
+  margin-bottom: $size-l;
+}
+
+.u-margin-bottom-xl {
+  margin-bottom: $size-xl;
+}
+
+.u-margin-bottom-xxl {
+  margin-bottom: $size-xxl;
+}
