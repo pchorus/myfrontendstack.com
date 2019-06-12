@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'myfrontendstack',
+  siteUrl: 'https://myfrontendstack.com',
   plugins: [{
     use: '@gridsome/source-filesystem',
     options: {
@@ -18,6 +19,8 @@ module.exports = {
     options: {
       id: 'UA-141874687-1'
     }
+  }, {
+    use: '@gridsome/plugin-sitemap'
   }],
   transformers: {
     remark: {
