@@ -2,7 +2,9 @@
   <div>
     <div class="header u-margin-bottom-xl">
       <header class="header__content">
-        <g-link class="header__link" to="/">myfrontendstack</g-link>
+        <g-link class="header__link" to="/">
+          <img class="header__logo" src="../assets/logo.svg" height="34px" alt="Logo" />
+          <span>myfrontendstack</span></g-link>
         <nav class="nav" :class="{ 'nav--visible': this.isMobileMenuVisible }">
           <g-link class="nav__item" to="/">Blog</g-link>
           <g-link class="nav__item" to="/contact">Contact</g-link>
@@ -66,10 +68,15 @@ query {
     }
 
     &__link {
+      display: flex;
+      align-items: center;
       color: $default-text-color;
       font-family: 'Montserrat', sans-serif;
       text-decoration: none;
       font-size: $size-m;
+    }
+    &__logo {
+      margin-right: $size-xs;
     }
   }
 
