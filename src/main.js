@@ -6,6 +6,9 @@ import 'prismjs/themes/prism.css'
 
 import DefaultLayout from '~/layouts/Default.vue'
 
+import * as Sentry from '@sentry/browser';
+import * as Integrations from '@sentry/integrations';
+
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
@@ -20,4 +23,8 @@ export default function (Vue, { router, head, isClient }) {
     href: 'https://fonts.googleapis.com/css?family=Open+Sans&display=swap'
   });
 
+  Sentry.init({
+    dsn: 'https://11a6f584ceaa48dd91b12200e6530b1e@sentry.io/1482644',
+    integrations: [new Integrations.Vue({Vue, attachProps: true})],
+  });
 }

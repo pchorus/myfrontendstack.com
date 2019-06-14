@@ -11,6 +11,8 @@
     "@gridsome/remark-prismjs": "0.0.6",
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.2",
+    "@sentry/browser": "^5.4.0",
+    "@sentry/integrations": "^5.4.1",
     "gridsome": "^0.6.0"
   },
   "devDependencies": {
