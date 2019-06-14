@@ -1,5 +1,6 @@
 ---
 title: "RxJS verstehen durch Implementieren eines Observables"
+description: "In diesem Blog-Post wird ein Observable implementiert, um die Funktionsweise von RxJS zu erklären."
 date: 2017-11-12
 author: "Pascal Chorus"
 category: RxJS

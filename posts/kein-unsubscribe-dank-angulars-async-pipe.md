@@ -1,5 +1,6 @@
 ---
 title: "Kein unsubscribe() dank Angulars AsyncPipe"
+description: "Dieser Blog-Post erklärt, wie man Angulars AsyncPipe benutzt, um explizite Aufrufe von unsubscribe() zu vermeiden."
 date: 2019-05-31
 author: "Pascal Chorus"
 category: Angular

@@ -10,6 +10,7 @@
   query Post ($id: String!) {
     post: blogPost (id: $id) {
       title
+      description
       date (format: "DD.MM.YYYY")
       timeToRead
       author
@@ -33,7 +34,10 @@
         title: this.$page.post.title,
         htmlAttrs: {
           lang: this.$page.post.lang || 'en'
-        }
+        },
+        meta: [
+          { key: 'description', name: 'description', content: this.$page.post.description }
+        ]
       }
     }
   }

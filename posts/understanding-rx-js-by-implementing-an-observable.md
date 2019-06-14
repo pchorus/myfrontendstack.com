@@ -1,5 +1,6 @@
 ---
 title: "Understanding RxJS by Implementing an Observable"
+description: "In this blog post an observable is implemented to explain the basic implementation of RxJS."
 date: 2017-11-12
 author: "Pascal Chorus"
 category: RxJS

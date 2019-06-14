@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'myfrontendstack',
   siteUrl: 'https://myfrontendstack.com',
+  siteDescription: 'Blog about frontend web development with Angular, TypeScript, RxJS and more.',
   plugins: [{
     use: '@gridsome/source-filesystem',
     options: {
