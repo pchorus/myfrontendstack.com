@@ -22,6 +22,8 @@ module.exports = {
     }
   }, {
     use: '@gridsome/plugin-sitemap'
+  }, {
+    use: 'gridsome-plugin-typescript',
   }],
   transformers: {
     remark: {

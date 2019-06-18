@@ -9,9 +9,13 @@
   </div>
 </template>
 
-<script>
-  export default {
-    props: ['post']
+<script lang="ts">
+  import { Component, Prop, Vue } from 'vue-property-decorator';
+  import { BlogPost } from "../types/BlogPost";
+
+  @Component
+  export default class BlogPostCard extends Vue {
+    @Prop() post!: BlogPost;
   }
 </script>
 

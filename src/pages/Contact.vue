@@ -32,19 +32,27 @@
   </Layout>
 </template>
 
-<script>
-  export default {
-    metaInfo: {
-      title: 'Contact'
-    },
-    methods: {
-      onSubmit(event) {
-        const isValid = event.target.checkValidity();
-        event.target.classList.add('submitted');
+<script lang="ts">
+  import { Component, Vue } from 'vue-property-decorator';
 
-        if (!isValid) {
-          event.preventDefault();
-        }
+  declare module "vue/types/options" {
+    interface ComponentOptions<V extends Vue> {
+      metaInfo?: any;
+    }
+  }
+
+  @Component({
+    metaInfo() {
+      return { title: 'Contact' };
+    }
+  })
+  export default class Contact extends Vue {
+    onSubmit(event: any) {
+      const isValid = event.target.checkValidity();
+      event.target.classList.add('submitted');
+
+      if (!isValid) {
+        event.preventDefault();
       }
     }
   }

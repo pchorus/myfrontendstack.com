@@ -5,7 +5,7 @@
         <g-link class="header__link" to="/">
           <img class="header__logo" src="../assets/logo.svg" height="34px" alt="Logo" />
           <span>myfrontendstack</span></g-link>
-        <nav class="nav" :class="{ 'nav--visible': this.isMobileMenuVisible }">
+        <nav class="nav" :class="{ 'nav--visible': isMobileMenuVisible }">
           <g-link class="nav__item" to="/">Blog</g-link>
           <g-link class="nav__item" to="/contact">Contact</g-link>
         </nav>
@@ -28,17 +28,15 @@ query {
 }
 </static-query>
 
-<script>
-  export default {
-    data: function () {
-      return {
-        isMobileMenuVisible: false
-      };
-    },
-    methods: {
-      onMenuButtonClick: function () {
-        this.isMobileMenuVisible = !this.isMobileMenuVisible;
-      }
+<script lang="ts">
+  import { Component, Vue } from 'vue-property-decorator';
+
+  @Component
+  export default class Default extends Vue {
+    private isMobileMenuVisible = false;
+
+    onMenuButtonClick() {
+      this.isMobileMenuVisible = !this.isMobileMenuVisible;
     }
   }
 </script>
