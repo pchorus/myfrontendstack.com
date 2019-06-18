@@ -14,7 +14,7 @@ to load data.
 Most of the time, the service method that loads the data returns an observable.
 To get the observable's value, you need to call `subscribe()` on the observable.
 And everytime you call `subscribe()` you need to call `unsubscribe()` later on.
-This may be forgotten easily and is not really handy as well.
+This may be forgotten easily and is not handy as well.
 
 This blog post shows how to use observables in angular components without
 calling `subscribe()`.
@@ -22,7 +22,7 @@ calling `subscribe()`.
 
 ## Component example
 
-As an example we implement a component that lists all films of the Star Wars series.
+As an example, we implement a component that lists all films of the Star Wars series.
 To load all films, the component calls the `DataService`'s method `loadFilms()`.
 This method returns an observable.
 
@@ -46,7 +46,7 @@ The films are loaded from the Star Wars-API on swapi.com.
 The endpoint for loading all films returns an array of all films in the `results` property.
 
 The app component calls this service function.
-Afterwards it calls `subscribe()` on the returned observable to fire the http request.
+Afterwards, it calls `subscribe()` on the returned observable to fire the HTTP request.
 The resulting list is assigned to the `films` property.
 
 
@@ -90,16 +90,16 @@ That can be done in one of the three following ways:
 1. The stream completes, i.e. the observable emits a certain number of values
 and stops.
 
-2. The stream throws an exception that is not catched.
+2. The stream throws an exception that is not caught.
 
 3. `unsubscribe()` is called on the observable's subscription. This needs to be done
-when the observable does not complete and thus the stream would 
+when the observable does not complete and thus the stream would
 keep emitting values endlessly. 
 
 
 ## Angular's HttpClient
-In the example above the data stream is started by calling `get()` on Angular's
-`HttpClient`. This function creates an http request and returns an observable.
+In the example above, the data stream is started by calling `get()` on Angular's
+`HttpClient`. This function creates an HTTP request and returns an observable.
 The observable emits a single value which is the request's response and completes
 immediately. Therefore, you do not need to call `unsubscribe()`.
 
@@ -156,7 +156,7 @@ export class AppComponent implements OnInit, OnDestroy {
 }
 ```
 
-First this is error-prone since every call of `loadFilms()` must be refactored
+First, this is error-prone since every call of `loadFilms()` must be refactored
 when the implementation of the service method changes.
 Second, it is kind of inconvenient to save the subscription in a property
 and call `unsubscribe()` to it as soon as the component is destroyed.
@@ -165,7 +165,7 @@ and call `unsubscribe()` to it as soon as the component is destroyed.
 ## The AsyncPipe
 
 To make observables easier to use within components the AsyncPipe exists.
-It can be used directly within your component's html template.
+It can be used directly within your component's HTML template.
 The AsyncPipe calls `subscribe()` automatically and returns the emitted values.
 When the component is destroyed, it automatically calls `unsubscribe()`.
 Even if a new observable is assigned to the variable used with the async pipe,
@@ -199,7 +199,7 @@ export class AppComponent implements OnInit {
 
 ## Conclusion
 
-The AsyncPipe can help making the code within components more robust and less
+The AsyncPipe can help to make the code within components more robust and less
 error-prone.
 The code is easier and you cannot forget to call `unsubscribe()`.
 
@@ -207,7 +207,7 @@ Of course, there are cases where using `subscribe()` fits better, e.g. when
 multiple side effects should be executed or when the observable's values
 are used in several parts of the code.
 
-Basically, I follow this rule of thumb:
+I follow this rule of thumb:
 
 Prefer the AsyncPipe over explicit `subscribe()` calls unless you have good
 reasons against it.
