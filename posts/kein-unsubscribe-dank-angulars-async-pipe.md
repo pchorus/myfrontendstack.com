@@ -77,7 +77,7 @@ export class AppComponent implements OnInit {
 ## Subscriptions auf Observables
 
 Das obige Beispiel zeigt die übliche Verwendung von Observables.
-Man erzeugt ein Observable, in diesem Beispiel mit dem Aufruf von http.get().
+Man erzeugt ein Observable, in diesem Beispiel mit dem Aufruf von `http.get()`.
 Anschließend ruft man auf dem Observable `subscribe()` auf, um den Datenstream zu starten
 und die erzeugten Werte zu erhalten.
 Jeder Datenstream, der gestartet wurde, muss allerdings auch wieder beendet werden.
@@ -88,7 +88,7 @@ und beendet sich anschließend.
 
 2. Der Stream wirft eine Exception, die nicht abgefangen wird.
 
-3. Auf der Subscription des Observables wird `unsubscribe()` wird aufgerufen. Dies ist
+3. Auf der Subscription des Observables wird `unsubscribe()` aufgerufen. Dies ist
 immer dann notwendig, wenn der Stream nicht completed und somit unendlich lange Werte
 erzeugt.
 
@@ -191,7 +191,7 @@ export class AppComponent implements OnInit {
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
-    this.films$ = this.dataService.loadFilms().subscribe(films => this.films = films);
+    this.films$ = this.dataService.loadFilms();
   }
 }
 ```
@@ -208,7 +208,7 @@ Werte des Observables an mehreren Stellen verwendet werden.
 
 Grundsätzlich folge ich der Faustregel:
 
-Bevorzuge die AsyncPipe gegenüber eines explitien `subscribe()`, es sei denn,
+Bevorzuge die AsyncPipe gegenüber eines expliziten `subscribe()`, es sei denn,
 Du kannst begründen, warum Du sie nicht verwenden möchtest.
 
 
