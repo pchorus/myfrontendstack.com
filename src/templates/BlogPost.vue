@@ -47,6 +47,8 @@
   @import '../assets/variables';
 
   .post-content {
+    padding-bottom: $size-m;
+
     h2, h3, h4, h5, h6 {
       margin-top: $size-xl;
       margin-bottom: $size-s;

@@ -26,7 +26,7 @@
 
     &__title {
       font-family: 'Montserrat', sans-serif;
-      color: $default-text-color;
+      color: var(--default-text-color);
     }
   }
 </style>
