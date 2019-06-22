@@ -1,11 +1,30 @@
 @import './variables';
 
+:root {
+  --secondary-text-color: #737373;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: $default-font-size;
-  color: #333333;
+}
+
+#app {
+  min-height: 100vh;
+  color: var(--default-text-color);
+  background-color: var(--default-background-color);
+
+  &.light-mode {
+    --default-text-color: #333333;
+    --default-background-color: #FFFFFF;
+  }
+
+  &.dark-mode {
+    --default-text-color: #AAAAAA;
+    --default-background-color: #2B2B2B;
+  }
 }
 
 h1, h2, h3 {
@@ -41,15 +60,19 @@ a {
   }
 }
 
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .button {
   font-family: 'Open Sans', sans-serif;
   font-size: $default-font-size;
-  border: none;
   background-color: $primary-color;
   padding: $size-xs $size-s;
   border-radius: $default-border-radius;
-  cursor: pointer;
-  outline: none;
 
   &--primary {
     color: white;
@@ -76,7 +99,7 @@ a {
   &__label {
     font-size: $default-font-size;
     display: block;
-    color: $secondary-text-color;
+    color: var(--secondary-text-color);
     margin-bottom: $size-xs;
   }
 
@@ -110,7 +133,7 @@ a {
 }
 
 .u-text-color-secondary {
-  color: $secondary-text-color;
+  color: var(--secondary-text-color);
 }
 
 .u-margin-bottom-xs {

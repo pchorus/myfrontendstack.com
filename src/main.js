@@ -2,7 +2,7 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import '~/assets/styles.scss'
-import 'prismjs/themes/prism.css'
+import 'prismjs/themes/prism-tomorrow.css'
 
 import DefaultLayout from '~/layouts/Default.vue'
 

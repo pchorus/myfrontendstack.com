@@ -46,6 +46,7 @@ export default {
 
   .blog-list {
     list-style-type: none;
-    padding: 0;
+    margin: 0;
+    padding: 0 0 $size-xl 0;
   }
 </style>
