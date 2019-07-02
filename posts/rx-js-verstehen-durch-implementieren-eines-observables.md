@@ -230,7 +230,7 @@ values$.subscribe(
   val => console.log(val),
   err => console.log(err),
   () => console.log('completed')
-});
+);
 ```
 
 Und somit haben wir die Implementierung von RxJS abgebildet.
@@ -272,11 +272,11 @@ const values$ = new Observable((next, error, complete) => {
 
 values$
 .map(x => 2 * x)
-.subscribe({
+.subscribe(
   val => console.log(val),
   err => console.log(err),
   () => console.log('completed')
-});
+);
 ```
 
 Das Verketten von Operatoren ist nun deutlich lesbarer:
@@ -287,11 +287,11 @@ Das Verketten von Operatoren ist nun deutlich lesbarer:
 values$
 .map(x => 2 * x)
 .map(x => x * x)
-.subscribe({
+.subscribe(
   val => console.log(val),
   err => console.log(err),
   () => console.log('completed')
-});
+);
 ```
 
 Und auch hier haben wir die Implementierung von RxJS abgebildet.

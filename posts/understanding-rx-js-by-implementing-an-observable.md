@@ -226,7 +226,7 @@ values$.subscribe(
   val => console.log(val),
   err => console.log(err),
   () => console.log('completed')
-});
+);
 ```
 
 Now we reproduced RxJS' original implementation.
@@ -265,11 +265,11 @@ const values$ = new Observable((next, error, complete) => {
 
 values$
 .map(x => 2 * x)
-.subscribe({
+.subscribe(
   val => console.log(val),
   err => console.log(err),
   () => console.log('completed')
-});
+);
 ```
 
 Now, chaining operators is possible which leads to a much easier readability:
@@ -280,11 +280,11 @@ Now, chaining operators is possible which leads to a much easier readability:
 values$
 .map(x => 2 * x)
 .map(x => x * x)
-.subscribe({
+.subscribe(
   val => console.log(val),
   err => console.log(err),
   () => console.log('completed')
-});
+);
 ```
 
 Again, this matches the implementation of `map()` in RxJS.
