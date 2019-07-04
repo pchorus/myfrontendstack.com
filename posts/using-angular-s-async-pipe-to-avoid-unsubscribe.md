@@ -212,4 +212,4 @@ I follow this rule of thumb:
 Prefer the AsyncPipe over explicit `subscribe()` calls unless you have good
 reasons against it.
 
-You find the complete example on [Stackblitz](https://stackblitz.com/github/pchorus/async-pipe-example).
+You find the complete example on [StackBlitz](https://stackblitz.com/github/pchorus/async-pipe-example).

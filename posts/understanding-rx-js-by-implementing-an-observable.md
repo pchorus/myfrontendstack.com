@@ -200,7 +200,7 @@ const values$ = new Observable(observer => {
   observer.next(1);
   observer.next(2);
   observer.next(3);
-  observer.complete(1);
+  observer.complete();
 });
 
 values$.subscribe({
@@ -219,7 +219,7 @@ const values$ = new Observable((next, error, complete) => {
   next(1);
   next(2);
   next(3);
-  complete(1);
+  complete();
 });
 
 values$.subscribe(
@@ -260,7 +260,7 @@ const values$ = new Observable((next, error, complete) => {
   next(1);
   next(2);
   next(3);
-  complete(1);
+  complete();
 });
 
 values$

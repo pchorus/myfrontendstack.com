@@ -212,4 +212,4 @@ Bevorzuge die AsyncPipe gegenüber eines expliziten `subscribe()`, es sei denn,
 Du kannst begründen, warum Du sie nicht verwenden möchtest.
 
 
-Ein vollständiges Beispiel findet Ihr auf [Stackblitz](https://stackblitz.com/github/pchorus/async-pipe-example).
+Ein vollständiges Beispiel findet Ihr auf [StackBlitz](https://stackblitz.com/github/pchorus/async-pipe-example).
