@@ -23,8 +23,10 @@ export default function (Vue, { router, head, isClient }) {
     href: 'https://fonts.googleapis.com/css?family=Open+Sans&display=swap'
   });
 
-  Sentry.init({
-    dsn: 'https://11a6f584ceaa48dd91b12200e6530b1e@sentry.io/1482644',
-    integrations: [new Integrations.Vue({Vue, attachProps: true})],
-  });
+  if (process.env.NODE_ENV === 'production') {
+    Sentry.init({
+      dsn: 'https://11a6f584ceaa48dd91b12200e6530b1e@sentry.io/1482644',
+      integrations: [new Integrations.Vue({Vue, attachProps: true})],
+    });
+  }
 }
