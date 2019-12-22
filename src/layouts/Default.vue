@@ -41,7 +41,7 @@ query {
     data: function () {
       return {
         isMobileMenuVisible: false,
-        isDarkMode: localStorage.getItem('isDarkMode') === 'true'
+        isDarkMode: localStorage ? localStorage.getItem('isDarkMode') === 'true' : false
       };
     },
     methods: {
@@ -50,7 +50,9 @@ query {
       },
       onToggleDarkMode: function () {
         this.isDarkMode = !this.isDarkMode;
-        localStorage.setItem('isDarkMode', this.isDarkMode);
+        if (localStorage) {
+          localStorage.setItem('isDarkMode', this.isDarkMode);
+        }
       }
     }
   }
