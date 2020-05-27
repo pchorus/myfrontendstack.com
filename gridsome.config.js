@@ -8,12 +8,14 @@ module.exports = {
   siteName: 'myfrontendstack',
   siteUrl: 'https://myfrontendstack.com',
   siteDescription: 'Blog about frontend web development with Angular, TypeScript, RxJS and more.',
+  templates: {
+    BlogPost: '/:title'
+  },
   plugins: [{
     use: '@gridsome/source-filesystem',
     options: {
       path: 'posts/**/*.md',
-      typeName: 'BlogPost',
-      route: '/:slug'
+      typeName: 'BlogPost'
     }
   }, {
     use: '@gridsome/plugin-google-analytics',
