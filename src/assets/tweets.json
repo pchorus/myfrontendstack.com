@@ -1,0 +1,2202 @@
+{
+  "results": [
+    {
+      "created_at": "Mon Jun 15 19:38:12 +0000 2020",
+      "id": 1272614402861289500,
+      "id_str": "1272614402861289472",
+      "text": "💡#TypeScript: I used to use the ternary operator when calling a function on an optional property, but now I prefer… https://t.co/iLc2iK99u6",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "💡#TypeScript: I used to use the ternary operator when calling a function on an optional property, but now I prefer optional chaining combined with nullish coalescing. Find it more appropriate and readable. https://t.co/njmirbZJLF",
+        "display_text_range": [
+          0,
+          205
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "TypeScript",
+              "indices": [
+                1,
+                12
+              ]
+            }
+          ],
+          "urls": [],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 1272614382745407500,
+              "id_str": "1272614382745407490",
+              "indices": [
+                206,
+                229
+              ],
+              "media_url": "http://pbs.twimg.com/media/Eak8CduX0AIwJjS.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Eak8CduX0AIwJjS.jpg",
+              "url": "https://t.co/njmirbZJLF",
+              "display_url": "pic.twitter.com/njmirbZJLF",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1272614402861289472/photo/1",
+              "type": "photo",
+              "sizes": {
+                "large": {
+                  "w": 1216,
+                  "h": 628,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 620,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 351,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1272614382745407500,
+              "id_str": "1272614382745407490",
+              "indices": [
+                206,
+                229
+              ],
+              "media_url": "http://pbs.twimg.com/media/Eak8CduX0AIwJjS.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Eak8CduX0AIwJjS.jpg",
+              "url": "https://t.co/njmirbZJLF",
+              "display_url": "pic.twitter.com/njmirbZJLF",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1272614402861289472/photo/1",
+              "type": "photo",
+              "sizes": {
+                "large": {
+                  "w": 1216,
+                  "h": 628,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 620,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 351,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "TypeScript",
+            "indices": [
+              1,
+              12
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/iLc2iK99u6",
+            "expanded_url": "https://twitter.com/i/web/status/1272614402861289472",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Thu May 07 18:45:13 +0000 2020",
+      "id": 1258467941722570800,
+      "id_str": "1258467941722570754",
+      "text": "💡#RxJS: I used to merge several observables that emit one value each to an array of values by using the operators c… https://t.co/VCjOVuFWxo",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "💡#RxJS: I used to merge several observables that emit one value each to an array of values by using the operators concatMap and reduce, but there is a much easier operator for this: forkJoin. forkJoin emits the last value of each observable and completes. https://t.co/dm84GTygJm",
+        "display_text_range": [
+          0,
+          255
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "RxJS",
+              "indices": [
+                1,
+                6
+              ]
+            }
+          ],
+          "urls": [],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 1258467928153997300,
+              "id_str": "1258467928153997314",
+              "indices": [
+                256,
+                279
+              ],
+              "media_url": "http://pbs.twimg.com/media/EXb56brXQAIZ8AB.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EXb56brXQAIZ8AB.jpg",
+              "url": "https://t.co/dm84GTygJm",
+              "display_url": "pic.twitter.com/dm84GTygJm",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1258467941722570754/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 1070,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 606,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1312,
+                  "h": 1170,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1258467928153997300,
+              "id_str": "1258467928153997314",
+              "indices": [
+                256,
+                279
+              ],
+              "media_url": "http://pbs.twimg.com/media/EXb56brXQAIZ8AB.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EXb56brXQAIZ8AB.jpg",
+              "url": "https://t.co/dm84GTygJm",
+              "display_url": "pic.twitter.com/dm84GTygJm",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1258467941722570754/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 1070,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 606,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1312,
+                  "h": 1170,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "RxJS",
+            "indices": [
+              1,
+              6
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/VCjOVuFWxo",
+            "expanded_url": "https://twitter.com/i/web/status/1258467941722570754",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Tue Apr 14 18:47:11 +0000 2020",
+      "id": 1250133518719598600,
+      "id_str": "1250133518719598593",
+      "text": "💡 I always try to avoid using the as operator in #TypeScript , since it is a cast and it bypasses static type check… https://t.co/ysaynN4QfU",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "💡 I always try to avoid using the as operator in #TypeScript , since it is a cast and it bypasses static type checking. https://t.co/hpbdAb09ni",
+        "display_text_range": [
+          0,
+          119
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "TypeScript",
+              "indices": [
+                49,
+                60
+              ]
+            }
+          ],
+          "urls": [],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 1250133384770261000,
+              "id_str": "1250133384770260998",
+              "indices": [
+                120,
+                143
+              ],
+              "media_url": "http://pbs.twimg.com/media/EVldsKEWkAY58Py.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EVldsKEWkAY58Py.jpg",
+              "url": "https://t.co/hpbdAb09ni",
+              "display_url": "pic.twitter.com/hpbdAb09ni",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1250133518719598593/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1088,
+                  "h": 990,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 619,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1088,
+                  "h": 990,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1250133384770261000,
+              "id_str": "1250133384770260998",
+              "indices": [
+                120,
+                143
+              ],
+              "media_url": "http://pbs.twimg.com/media/EVldsKEWkAY58Py.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EVldsKEWkAY58Py.jpg",
+              "url": "https://t.co/hpbdAb09ni",
+              "display_url": "pic.twitter.com/hpbdAb09ni",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1250133518719598593/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1088,
+                  "h": 990,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 619,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1088,
+                  "h": 990,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "TypeScript",
+            "indices": [
+              49,
+              60
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/ysaynN4QfU",
+            "expanded_url": "https://twitter.com/i/web/status/1250133518719598593",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Fri Apr 03 20:30:03 +0000 2020",
+      "id": 1246173138553122800,
+      "id_str": "1246173138553122819",
+      "text": "💡#Angular: I implemented a custom error handler that calls a service function to show an alert to the user. I notic… https://t.co/1bU9dfJyB3",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "💡#Angular: I implemented a custom error handler that calls a service function to show an alert to the user. I noticed that there is no change detection run after handleError() was called. To fix this, the service function call must be wrapped in https://t.co/fOkB5laqDr(). https://t.co/MtrmyM0PSJ",
+        "display_text_range": [
+          0,
+          272
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Angular",
+              "indices": [
+                1,
+                9
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/fOkB5laqDr",
+              "expanded_url": "http://NgZone.run",
+              "display_url": "NgZone.run",
+              "indices": [
+                246,
+                269
+              ]
+            }
+          ],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 1246173013944516600,
+              "id_str": "1246173013944516611",
+              "indices": [
+                273,
+                296
+              ],
+              "media_url": "http://pbs.twimg.com/media/EUtLwPDXQAMcInu.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EUtLwPDXQAMcInu.jpg",
+              "url": "https://t.co/MtrmyM0PSJ",
+              "display_url": "pic.twitter.com/MtrmyM0PSJ",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1246173138553122819/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 484,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1088,
+                  "h": 774,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1088,
+                  "h": 774,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1246173013944516600,
+              "id_str": "1246173013944516611",
+              "indices": [
+                273,
+                296
+              ],
+              "media_url": "http://pbs.twimg.com/media/EUtLwPDXQAMcInu.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EUtLwPDXQAMcInu.jpg",
+              "url": "https://t.co/MtrmyM0PSJ",
+              "display_url": "pic.twitter.com/MtrmyM0PSJ",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1246173138553122819/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 484,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1088,
+                  "h": 774,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1088,
+                  "h": 774,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Angular",
+            "indices": [
+              1,
+              9
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/1bU9dfJyB3",
+            "expanded_url": "https://twitter.com/i/web/status/1246173138553122819",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Thu Mar 26 14:28:13 +0000 2020",
+      "id": 1243182977707802600,
+      "id_str": "1243182977707802624",
+      "text": "💡#Angular #RxJS: If you want to get values from an observable stream only when the value changes, e.g. if a specifi… https://t.co/QSOziy8Jex",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "💡#Angular #RxJS: If you want to get values from an observable stream only when the value changes, e.g. if a specific query parameter changes, you can use distinctUntilChanged. https://t.co/G4gDz5r7Hl",
+        "display_text_range": [
+          0,
+          175
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Angular",
+              "indices": [
+                1,
+                9
+              ]
+            },
+            {
+              "text": "RxJS",
+              "indices": [
+                10,
+                15
+              ]
+            }
+          ],
+          "urls": [],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 1243182775139778600,
+              "id_str": "1243182775139778561",
+              "indices": [
+                176,
+                199
+              ],
+              "media_url": "http://pbs.twimg.com/media/EUCsJbcXQAE7Ltu.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EUCsJbcXQAE7Ltu.jpg",
+              "url": "https://t.co/G4gDz5r7Hl",
+              "display_url": "pic.twitter.com/G4gDz5r7Hl",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1243182977707802624/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1204,
+                  "h": 974,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 971,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 550,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1243182775139778600,
+              "id_str": "1243182775139778561",
+              "indices": [
+                176,
+                199
+              ],
+              "media_url": "http://pbs.twimg.com/media/EUCsJbcXQAE7Ltu.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EUCsJbcXQAE7Ltu.jpg",
+              "url": "https://t.co/G4gDz5r7Hl",
+              "display_url": "pic.twitter.com/G4gDz5r7Hl",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1243182977707802624/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1204,
+                  "h": 974,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 971,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 550,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "favorite_count": 2,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Angular",
+            "indices": [
+              1,
+              9
+            ]
+          },
+          {
+            "text": "RxJS",
+            "indices": [
+              10,
+              15
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/QSOziy8Jex",
+            "expanded_url": "https://twitter.com/i/web/status/1243182977707802624",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Thu Mar 12 13:20:39 +0000 2020",
+      "id": 1238092540957556700,
+      "id_str": "1238092540957556736",
+      "text": "💡#RxJS: The tap operator has the same signature as the subscribe function, i.e. it takes up to three functions in i… https://t.co/YdIVn005Iu",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "💡#RxJS: The tap operator has the same signature as the subscribe function, i.e. it takes up to three functions in its parameters, namely next(), error() and complete().\n*BUT*: Implementing subscribe's error handler does not rethrow the error, tap's error handler does! https://t.co/kZwnT4Og63",
+        "display_text_range": [
+          0,
+          268
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "RxJS",
+              "indices": [
+                1,
+                6
+              ]
+            }
+          ],
+          "urls": [],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 1238092438843142100,
+              "id_str": "1238092438843142145",
+              "indices": [
+                269,
+                292
+              ],
+              "media_url": "http://pbs.twimg.com/media/ES6Wg3BXsAE0fKM.png",
+              "media_url_https": "https://pbs.twimg.com/media/ES6Wg3BXsAE0fKM.png",
+              "url": "https://t.co/kZwnT4Og63",
+              "display_url": "pic.twitter.com/kZwnT4Og63",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1238092540957556736/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 900,
+                  "h": 686,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 518,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 900,
+                  "h": 686,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1238092438843142100,
+              "id_str": "1238092438843142145",
+              "indices": [
+                269,
+                292
+              ],
+              "media_url": "http://pbs.twimg.com/media/ES6Wg3BXsAE0fKM.png",
+              "media_url_https": "https://pbs.twimg.com/media/ES6Wg3BXsAE0fKM.png",
+              "url": "https://t.co/kZwnT4Og63",
+              "display_url": "pic.twitter.com/kZwnT4Og63",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1238092540957556736/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 900,
+                  "h": 686,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 518,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 900,
+                  "h": 686,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "RxJS",
+            "indices": [
+              1,
+              6
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/YdIVn005Iu",
+            "expanded_url": "https://twitter.com/i/web/status/1238092540957556736",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Tue Mar 10 08:48:53 +0000 2020",
+      "id": 1237299374339829800,
+      "id_str": "1237299374339829760",
+      "text": "💡#TypeScript: If you want to use an existing interface, but the properties should be optional in your case, Partial… https://t.co/LOBQ9eDAHw",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "💡#TypeScript: If you want to use an existing interface, but the properties should be optional in your case, Partial can help you construct your object. https://t.co/kxcuLJze4e",
+        "display_text_range": [
+          0,
+          151
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "TypeScript",
+              "indices": [
+                1,
+                12
+              ]
+            }
+          ],
+          "urls": [],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 1237299210111901700,
+              "id_str": "1237299210111901697",
+              "indices": [
+                152,
+                175
+              ],
+              "media_url": "http://pbs.twimg.com/media/ESvFE3uXYAEiKOO.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/ESvFE3uXYAEiKOO.jpg",
+              "url": "https://t.co/kxcuLJze4e",
+              "display_url": "pic.twitter.com/kxcuLJze4e",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1237299374339829760/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 964,
+                  "h": 470,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 964,
+                  "h": 470,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 332,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1237299210111901700,
+              "id_str": "1237299210111901697",
+              "indices": [
+                152,
+                175
+              ],
+              "media_url": "http://pbs.twimg.com/media/ESvFE3uXYAEiKOO.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/ESvFE3uXYAEiKOO.jpg",
+              "url": "https://t.co/kxcuLJze4e",
+              "display_url": "pic.twitter.com/kxcuLJze4e",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1237299374339829760/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 964,
+                  "h": 470,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 964,
+                  "h": 470,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 332,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "TypeScript",
+            "indices": [
+              1,
+              12
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/LOBQ9eDAHw",
+            "expanded_url": "https://twitter.com/i/web/status/1237299374339829760",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Tue Feb 25 10:50:51 +0000 2020",
+      "id": 1232256636791742500,
+      "id_str": "1232256636791742466",
+      "text": "💡TIL: Add required inputs of an #Angular component to the component's selector string. The compiler will throw an e… https://t.co/JnSEBpgkMJ",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "💡TIL: Add required inputs of an #Angular component to the component's selector string. The compiler will throw an error when the input attribute is missing. https://t.co/W67U5h72yX",
+        "display_text_range": [
+          0,
+          156
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Angular",
+              "indices": [
+                32,
+                40
+              ]
+            }
+          ],
+          "urls": [],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 1232256632974987300,
+              "id_str": "1232256632974987265",
+              "indices": [
+                157,
+                180
+              ],
+              "media_url": "http://pbs.twimg.com/media/ERna4QCX0AEyYys.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/ERna4QCX0AEyYys.jpg",
+              "url": "https://t.co/W67U5h72yX",
+              "display_url": "pic.twitter.com/W67U5h72yX",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1232256636791742466/photo/1",
+              "type": "photo",
+              "sizes": {
+                "small": {
+                  "w": 680,
+                  "h": 430,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1028,
+                  "h": 650,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1028,
+                  "h": 650,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1232256632974987300,
+              "id_str": "1232256632974987265",
+              "indices": [
+                157,
+                180
+              ],
+              "media_url": "http://pbs.twimg.com/media/ERna4QCX0AEyYys.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/ERna4QCX0AEyYys.jpg",
+              "url": "https://t.co/W67U5h72yX",
+              "display_url": "pic.twitter.com/W67U5h72yX",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1232256636791742466/photo/1",
+              "type": "photo",
+              "sizes": {
+                "small": {
+                  "w": 680,
+                  "h": 430,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1028,
+                  "h": 650,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1028,
+                  "h": 650,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Angular",
+            "indices": [
+              32,
+              40
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/JnSEBpgkMJ",
+            "expanded_url": "https://twitter.com/i/web/status/1232256636791742466",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Fri Feb 21 20:04:14 +0000 2020",
+      "id": 1230946352399515600,
+      "id_str": "1230946352399515660",
+      "text": "💡#Angular: Having multiple subscribers to an HttpClient.get() fires multiple http requests.\nSharing the result with… https://t.co/v0NUYv7HKZ",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "💡#Angular: Having multiple subscribers to an HttpClient.get() fires multiple http requests.\nSharing the result with #RxJS' shareReplay() leads to a single http request. https://t.co/a0Qizxmako",
+        "display_text_range": [
+          0,
+          168
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Angular",
+              "indices": [
+                1,
+                9
+              ]
+            },
+            {
+              "text": "RxJS",
+              "indices": [
+                116,
+                121
+              ]
+            }
+          ],
+          "urls": [],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 1230946346091368400,
+              "id_str": "1230946346091368448",
+              "indices": [
+                169,
+                192
+              ],
+              "media_url": "http://pbs.twimg.com/media/ERUzLhBXUAAfEHh.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/ERUzLhBXUAAfEHh.jpg",
+              "url": "https://t.co/a0Qizxmako",
+              "display_url": "pic.twitter.com/a0Qizxmako",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1230946352399515660/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1152,
+                  "h": 1026,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 606,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1152,
+                  "h": 1026,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1230946346091368400,
+              "id_str": "1230946346091368448",
+              "indices": [
+                169,
+                192
+              ],
+              "media_url": "http://pbs.twimg.com/media/ERUzLhBXUAAfEHh.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/ERUzLhBXUAAfEHh.jpg",
+              "url": "https://t.co/a0Qizxmako",
+              "display_url": "pic.twitter.com/a0Qizxmako",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1230946352399515660/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1152,
+                  "h": 1026,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 606,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1152,
+                  "h": 1026,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1,
+      "favorite_count": 3,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Angular",
+            "indices": [
+              1,
+              9
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/v0NUYv7HKZ",
+            "expanded_url": "https://twitter.com/i/web/status/1230946352399515660",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Thu Feb 13 15:01:01 +0000 2020",
+      "id": 1227970939477950500,
+      "id_str": "1227970939477950465",
+      "text": "💡TIL: prefer ?? operator over || for default values in #typescript to avoid unintended behavior for 0, '' and NaN. https://t.co/1vgKE33F99",
+      "display_text_range": [
+        0,
+        114
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "typescript",
+            "indices": [
+              55,
+              66
+            ]
+          }
+        ],
+        "urls": [],
+        "user_mentions": [],
+        "symbols": [],
+        "media": [
+          {
+            "id": 1227970935459909600,
+            "id_str": "1227970935459909632",
+            "indices": [
+              115,
+              138
+            ],
+            "media_url": "http://pbs.twimg.com/media/EQqhD0qXkAA1LPo.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/EQqhD0qXkAA1LPo.jpg",
+            "url": "https://t.co/1vgKE33F99",
+            "display_url": "pic.twitter.com/1vgKE33F99",
+            "expanded_url": "https://twitter.com/PascalChorus/status/1227970939477950465/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 924,
+                "h": 554,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 408,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 924,
+                "h": 554,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1227970935459909600,
+            "id_str": "1227970935459909632",
+            "indices": [
+              115,
+              138
+            ],
+            "media_url": "http://pbs.twimg.com/media/EQqhD0qXkAA1LPo.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/EQqhD0qXkAA1LPo.jpg",
+            "url": "https://t.co/1vgKE33F99",
+            "display_url": "pic.twitter.com/1vgKE33F99",
+            "expanded_url": "https://twitter.com/PascalChorus/status/1227970939477950465/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 924,
+                "h": 554,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 408,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 924,
+                "h": 554,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Thu Feb 06 14:56:51 +0000 2020",
+      "id": 1225433176723554300,
+      "id_str": "1225433176723554304",
+      "text": "💡TIL: https://t.co/KY9TeCGbfH and https://t.co/lcVUuzR91U are two different sites, because of this list: https://t.co/QQbQU85dq0",
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [],
+        "urls": [
+          {
+            "url": "https://t.co/KY9TeCGbfH",
+            "expanded_url": "http://repo1.github.io",
+            "display_url": "repo1.github.io",
+            "indices": [
+              6,
+              29
+            ]
+          },
+          {
+            "url": "https://t.co/lcVUuzR91U",
+            "expanded_url": "http://repo2.github.io",
+            "display_url": "repo2.github.io",
+            "indices": [
+              34,
+              57
+            ]
+          },
+          {
+            "url": "https://t.co/QQbQU85dq0",
+            "expanded_url": "https://publicsuffix.org",
+            "display_url": "publicsuffix.org",
+            "indices": [
+              105,
+              128
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Fri Nov 29 17:28:33 +0000 2019",
+      "id": 1200466591890231300,
+      "id_str": "1200466591890231299",
+      "text": "💡TIL: #Angular‘s lifecycle hook ngOnDestroy is also available for services, not only for components.",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": null,
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 16,
+        "friends_count": 76,
+        "listed_count": 1,
+        "favourites_count": 11,
+        "statuses_count": 78,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Angular",
+            "indices": [
+              6,
+              14
+            ]
+          }
+        ],
+        "urls": [],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    }
+  ],
+  "requestParameters": {
+    "maxResults": 100,
+    "fromDate": "201501010000",
+    "toDate": "202006151941"
+  }
+}

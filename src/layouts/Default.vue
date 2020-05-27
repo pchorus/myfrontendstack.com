@@ -8,6 +8,7 @@
         <div class="menu" :class="{ 'menu--visible': this.isMobileMenuVisible }">
           <nav class="nav">
             <g-link class="menu__item" to="/">Blog</g-link>
+            <g-link class="menu__item" to="/tweets">Tweets</g-link>
             <g-link class="menu__item" to="/contact">Contact</g-link>
           </nav>
           <button class="menu__item" @click="onToggleDarkMode()">{{ isDarkMode ? 'Light Mode' : 'Dark mode' }}</button>
