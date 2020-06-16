@@ -42,8 +42,11 @@ query {
     data: function () {
       return {
         isMobileMenuVisible: false,
-        isDarkMode: localStorage ? localStorage.getItem('isDarkMode') === 'true' : false
+        isDarkMode: false
       };
+    },
+    mounted: function () {
+      this.isDarkMode = localStorage ? localStorage.getItem('isDarkMode') === 'true' : false
     },
     methods: {
       onMenuButtonClick: function () {
