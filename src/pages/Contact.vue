@@ -7,7 +7,7 @@
 
     <p class="u-margin-bottom-l">If you like to get in touch, please send me a message via the form below
       or send a message via
-      <a href="https://twitter.com/myfrontendstack" rel="noopener" target="_blank">Twitter</a>.
+      <a href="https://twitter.com/pascalchorus" rel="noopener" target="_blank">Twitter</a>.
     </p>
 
     <form name="contact" method="POST" action="/message-sent" @submit="onSubmit" novalidate data-netlify data-netlify-honeypot="bot-field">
