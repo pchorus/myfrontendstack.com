@@ -1,6 +1,575 @@
 {
   "results": [
     {
+      "created_at": "Thu Aug 20 17:41:03 +0000 2020",
+      "id": 1296502521037561900,
+      "id_str": "1296502521037561856",
+      "text": "💡#JavaScript: There are three different syntaxes for assigning a function to an object property. Two ways for a usu… https://t.co/DuZquanKgl",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": "http://pascalchorus.de",
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 23,
+        "friends_count": 81,
+        "listed_count": 1,
+        "favourites_count": 16,
+        "statuses_count": 85,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "💡#JavaScript: There are three different syntaxes for assigning a function to an object property. Two ways for a usual function and one using an arrow function. https://t.co/zSJjljBmhi",
+        "display_text_range": [
+          0,
+          159
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "JavaScript",
+              "indices": [
+                1,
+                12
+              ]
+            }
+          ],
+          "urls": [],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 1296502348064469000,
+              "id_str": "1296502348064468993",
+              "indices": [
+                160,
+                183
+              ],
+              "media_url": "http://pbs.twimg.com/media/Ef4aBDLXsAERbf4.png",
+              "media_url_https": "https://pbs.twimg.com/media/Ef4aBDLXsAERbf4.png",
+              "url": "https://t.co/zSJjljBmhi",
+              "display_url": "pic.twitter.com/zSJjljBmhi",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1296502521037561856/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 880,
+                  "h": 880,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 880,
+                  "h": 880,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1296502348064469000,
+              "id_str": "1296502348064468993",
+              "indices": [
+                160,
+                183
+              ],
+              "media_url": "http://pbs.twimg.com/media/Ef4aBDLXsAERbf4.png",
+              "media_url_https": "https://pbs.twimg.com/media/Ef4aBDLXsAERbf4.png",
+              "url": "https://t.co/zSJjljBmhi",
+              "display_url": "pic.twitter.com/zSJjljBmhi",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1296502521037561856/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 880,
+                  "h": 880,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 880,
+                  "h": 880,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 4,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "JavaScript",
+            "indices": [
+              1,
+              12
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/DuZquanKgl",
+            "expanded_url": "https://twitter.com/i/web/status/1296502521037561856",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Wed Aug 19 18:32:08 +0000 2020",
+      "id": 1296152987249922000,
+      "id_str": "1296152987249922048",
+      "text": "💡#JavaScript: If you initialize object properties with variables having the same name you can just put the names in… https://t.co/zSxAs2w7FQ",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": "http://pascalchorus.de",
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 23,
+        "friends_count": 81,
+        "listed_count": 1,
+        "favourites_count": 16,
+        "statuses_count": 85,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "💡#JavaScript: If you initialize object properties with variables having the same name you can just put the names in the object. https://t.co/dvL4bP14OJ",
+        "display_text_range": [
+          0,
+          127
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "JavaScript",
+              "indices": [
+                1,
+                12
+              ]
+            }
+          ],
+          "urls": [],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 1296152975136751600,
+              "id_str": "1296152975136751616",
+              "indices": [
+                128,
+                151
+              ],
+              "media_url": "http://pbs.twimg.com/media/EfzcQ3mXgAAHT9U.png",
+              "media_url_https": "https://pbs.twimg.com/media/EfzcQ3mXgAAHT9U.png",
+              "url": "https://t.co/dvL4bP14OJ",
+              "display_url": "pic.twitter.com/dvL4bP14OJ",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1296152987249922048/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 784,
+                  "h": 772,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 784,
+                  "h": 772,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 670,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1296152975136751600,
+              "id_str": "1296152975136751616",
+              "indices": [
+                128,
+                151
+              ],
+              "media_url": "http://pbs.twimg.com/media/EfzcQ3mXgAAHT9U.png",
+              "media_url_https": "https://pbs.twimg.com/media/EfzcQ3mXgAAHT9U.png",
+              "url": "https://t.co/dvL4bP14OJ",
+              "display_url": "pic.twitter.com/dvL4bP14OJ",
+              "expanded_url": "https://twitter.com/PascalChorus/status/1296152987249922048/photo/1",
+              "type": "photo",
+              "sizes": {
+                "medium": {
+                  "w": 784,
+                  "h": 772,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 784,
+                  "h": 772,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 670,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 2,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "JavaScript",
+            "indices": [
+              1,
+              12
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/zSxAs2w7FQ",
+            "expanded_url": "https://twitter.com/i/web/status/1296152987249922048",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
+      "created_at": "Tue Aug 18 18:04:33 +0000 2020",
+      "id": 1295783659253923800,
+      "id_str": "1295783659253923840",
+      "text": "💡In #TypeScript you can use Omit to create a type by removing properties of an existing type. https://t.co/wSOiVvyklq",
+      "display_text_range": [
+        0,
+        93
+      ],
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3938427981,
+        "id_str": "3938427981",
+        "name": "Pascal Chorus",
+        "screen_name": "PascalChorus",
+        "location": "Aachen, Deutschland",
+        "url": "http://pascalchorus.de",
+        "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 23,
+        "friends_count": 81,
+        "listed_count": 1,
+        "favourites_count": 16,
+        "statuses_count": 85,
+        "created_at": "Mon Oct 12 16:08:17 +0000 2015",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "TypeScript",
+            "indices": [
+              4,
+              15
+            ]
+          }
+        ],
+        "urls": [],
+        "user_mentions": [],
+        "symbols": [],
+        "media": [
+          {
+            "id": 1295783608456827000,
+            "id_str": "1295783608456826880",
+            "indices": [
+              94,
+              117
+            ],
+            "media_url": "http://pbs.twimg.com/media/EfuMU5fX0AATHyu.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/EfuMU5fX0AATHyu.jpg",
+            "url": "https://t.co/wSOiVvyklq",
+            "display_url": "pic.twitter.com/wSOiVvyklq",
+            "expanded_url": "https://twitter.com/PascalChorus/status/1295783659253923840/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 680,
+                "h": 554,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 992,
+                "h": 808,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 992,
+                "h": 808,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1295783608456827000,
+            "id_str": "1295783608456826880",
+            "indices": [
+              94,
+              117
+            ],
+            "media_url": "http://pbs.twimg.com/media/EfuMU5fX0AATHyu.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/EfuMU5fX0AATHyu.jpg",
+            "url": "https://t.co/wSOiVvyklq",
+            "display_url": "pic.twitter.com/wSOiVvyklq",
+            "expanded_url": "https://twitter.com/PascalChorus/status/1295783659253923840/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 680,
+                "h": 554,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 992,
+                "h": 808,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 992,
+                "h": 808,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en",
+      "matching_rules": [
+        {
+          "tag": null
+        }
+      ]
+    },
+    {
       "created_at": "Mon Jun 15 19:38:12 +0000 2020",
       "id": 1272614402861289500,
       "id_str": "1272614402861289472",
@@ -22,16 +591,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -48,8 +617,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -163,8 +732,8 @@
       },
       "quote_count": 0,
       "reply_count": 0,
-      "retweet_count": 1,
-      "favorite_count": 0,
+      "retweet_count": 2,
+      "favorite_count": 6,
       "entities": {
         "hashtags": [
           {
@@ -222,16 +791,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -248,8 +817,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -364,7 +933,7 @@
       "quote_count": 0,
       "reply_count": 0,
       "retweet_count": 0,
-      "favorite_count": 0,
+      "favorite_count": 1,
       "entities": {
         "hashtags": [
           {
@@ -422,16 +991,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -448,8 +1017,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -622,16 +1191,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -648,8 +1217,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -832,16 +1401,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -858,8 +1427,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -1046,16 +1615,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -1072,8 +1641,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -1246,16 +1815,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -1272,8 +1841,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -1446,16 +2015,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -1472,8 +2041,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -1646,16 +2215,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -1672,8 +2241,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -1853,16 +2422,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -1879,8 +2448,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -2018,16 +2587,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -2044,8 +2613,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -2125,16 +2694,16 @@
         "name": "Pascal Chorus",
         "screen_name": "PascalChorus",
         "location": "Aachen, Deutschland",
-        "url": null,
+        "url": "http://pascalchorus.de",
         "description": "Senior Frontend Developer @moneymeets_com, tweets about Angular, TypeScript, RxJS and more",
         "translator_type": "none",
         "protected": false,
         "verified": false,
-        "followers_count": 16,
-        "friends_count": 76,
+        "followers_count": 23,
+        "friends_count": 81,
         "listed_count": 1,
-        "favourites_count": 11,
-        "statuses_count": 78,
+        "favourites_count": 16,
+        "statuses_count": 85,
         "created_at": "Mon Oct 12 16:08:17 +0000 2015",
         "utc_offset": null,
         "time_zone": null,
@@ -2151,8 +2720,8 @@
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/654011613352194048/aEoZN-LR_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1292906488156037121/ddDuG71l_normal.jpg",
         "profile_banner_url": "https://pbs.twimg.com/profile_banners/3938427981/1582055849",
         "default_profile": true,
         "default_profile_image": false,
@@ -2197,6 +2766,6 @@
   "requestParameters": {
     "maxResults": 100,
     "fromDate": "201501010000",
-    "toDate": "202006151941"
+    "toDate": "202008291242"
   }
 }
