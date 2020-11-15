@@ -7,7 +7,7 @@ category: RxJS
 lang: en
 ---
 
-In [Understanding RxJS by Implementing an Observable](understanding-rx-js-by-implementing-an-observable)
+In [Understanding RxJS by Implementing an Observable](/understanding-rx-js-by-implementing-an-observable)
 we implemented an observable and the `map()` operator to explain how RxJS works.
 The implementation was based on RxJS 5.
 Since RxJS 5.5 the preferable way to apply operators is to use the pipeable operators.
@@ -17,7 +17,7 @@ This post explains why the operators' implementation was changed.
 We will implement a pipeable `map()` operator to show how it works. 
 
 To get a full understanding of RxJS' evolution from version 5 to 6 you may want
-to read [Understanding RxJS by Implementing an Observable](understanding-rx-js-by-implementing-an-observable) first.
+to read [Understanding RxJS by Implementing an Observable](/understanding-rx-js-by-implementing-an-observable) first.
 
 You can check the whole example at [StackBlitz](https://stackblitz.com/edit/rxjs-implementation).
 
@@ -40,7 +40,7 @@ If the user does not remove it, it can be removed during the build by tree shaki
 
 ## Implementing an Observable as a Class
 
-We implement the class `Observable` like in the other [blog post](understanding-rx-js-by-implementing-an-observable).
+We implement the class `Observable` like in the other [blog post](/understanding-rx-js-by-implementing-an-observable).
 This is the implementation of the class `Observable`:
  
 ```javascript
