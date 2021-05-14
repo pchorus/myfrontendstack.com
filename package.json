@@ -7,19 +7,19 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.0",
-    "@gridsome/remark-prismjs": "0.3.0",
+    "@gridsome/plugin-google-analytics": "^0.1.2",
+    "@gridsome/remark-prismjs": "0.5.0",
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.0",
-    "@sentry/browser": "^5.5.0",
-    "@sentry/integrations": "^5.5.0",
-    "gridsome": "^0.7.14",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "@sentry/browser": "^6.3.6",
+    "@sentry/integrations": "^6.3.6",
+    "gridsome": "^0.7.23",
     "minimist": "^1.2.5"
   },
   "devDependencies": {
-    "@gridsome/plugin-sitemap": "^0.2.3",
+    "@gridsome/plugin-sitemap": "^0.4.0",
     "axios": "^0.21.1",
-    "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2"
+    "node-sass": "^6.0.0",
+    "sass-loader": "^10.2.0"
   }
 }
