@@ -14,7 +14,7 @@
     "@sentry/browser": "^6.18.2",
     "@sentry/integrations": "^6.18.2",
     "gridsome": "^0.7.23",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   },
   "devDependencies": {
     "@gridsome/plugin-sitemap": "^0.4.0",
